@@ -1,14 +1,14 @@
 # 核心算法:  
-用 分-时间 做排序的依据, 维持一个跳表 (SkipList)
+用 分-时间 做排序的依据, 维持一个跳表 (SkipList)  
 同时用维护一个 map[玩家id]*跳表节点 做反向查询用  
 因为10w日活*30日活动. 完全可以在一个4G内存中完成  
 
 # 整体说明
-server - 一个简单的telnet server
-handlers - server的消息处理
-modules - 排行榜和玩家结构
-toolkit - 工具包
-test - 测试用代码
+server - 一个简单的telnet server  
+handlers - server的消息处理  
+modules - 排行榜和玩家结构  
+toolkit - 工具包  
+test - 测试用代码  
 
 # 测试命令  
 * 为了方便测试.启动时默认生成了100个玩家的随机数据,id范围时1-100,分值是随机数
